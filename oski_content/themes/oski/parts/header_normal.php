@@ -6,11 +6,11 @@
         <li><a href='<?php echo linkToF('?mode=classic&set_permanent=1')?>'>Classic Interface</a></li>
     </ul>
     </div>
+    <div class='logo' id='float'></div>
     <div class='text'> Oski Engine </div>
 </section>
 <section class="main" id='nav'>
 <header>
-    <div class='logo'></div>
     <nav>
 	<div class='wrp'>
 	    <a href='<?php echo linkTo() ?>'> <?php getTitle() ?> </a>

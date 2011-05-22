@@ -22,7 +22,10 @@
 body{
     font-family: "OpenSansRegular", sans-serif;
     font-size: 10pt;
-    background: #FFf9E0;
+    background: url('../images/pat.png') repeat;
+}
+section.wrapper{
+	background: url('../images/grad.png') no-repeat top center;
 }
 h1, h2, h3, h4, h5, h6{
     font-size: 16pt;
@@ -191,7 +194,7 @@ nav .mainnav ul ul ul li{
     height: auto;
 }
 header .admin, header .secnav{
-    margin: 15px 0;
+    margin: 0;
     background: #fcfcfc;
     border: solid 1px #eee9d0;
     float: left;
@@ -260,19 +263,15 @@ section#menu{
     right: 0;
     text-align: center;
 }
-section#menu .logo, header .logo{
+section#menu .logo{
     background: url('../images/logo.png') center top no-repeat;
     position: absolute;
     left: 50%;
-    margin-left: -80px;
+    margin-left: -65px;
     top: 50px;
-    width: 215px;
-    height: 250px;
+    width: 170px;
+    height: 200px;
     display: inline-block;
-}
-header .logo{
-    top: 100px;
-    margin-left: -35%;
 }
 section#menu .container{
     position: absolute;
@@ -281,23 +280,39 @@ section#menu .container{
     top: 50%; margin-top: -200px;
     left: 50%; margin-left: -250px;
 }
+section#menu .logo#float{
+   bottom: -50px;
+	right: -15px;
+	left: auto;
+	top: auto;
+	opacity: 1;
+   margin-left: -35%;
+	height: 200px;
+	position: absolute;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+}
+section#menu.active .logo#float{
+	bottom: -500px;
+}
 section#menu .logo{
     opacity: 0;
     height: 0;
 }
 section#menu.active{
-    background: #FFf9E0;
+    background: url('../images/pat.png') repeat;
     z-index: 100;
 }
 section#menu.active .logo{
     background-position: center bottom;
     opacity: 1;
-    height: 250px;
+    height: 200px;
 }
 section#menu ul{
     height: 0;
    opacity: 0;
-   margin-top: 290px;
+   margin-top: 250px;
 }
 section#menu.active ul{
     height: auto;
@@ -324,7 +339,7 @@ section#menu ul li a:hover, section#menu ul li a:active, section#menu ul li a:fo
 }
 section#menu .text{
     width: 1000px;
-    font-size: 72pt;
+    font-size: 72pt !important;
     color: #ccccbb;
     font-family: "CalligraffitiRegular", cursive;
     opacity: 0;
@@ -353,26 +368,29 @@ section#menu.active .text{
 .mode_light section#menu{
     text-align: right;
 }
+.mode_light section#menu *{	
+	font-size: 8pt !important;
+}
+.mode_light section#menu .text{
+	font-size: 72pt !important;
+}
 .mode_light h1.site.title{
     border: none;
     font-size: 28pt;
 }
 .mode_light section#menu .logo{
-    height: 250px;
+    height: 200px;
     opacity: 1;
     left: auto;
     right: 0;
     top: auto;
     bottom: 0;
 }
-.mode_light section#menu.active{
-    background: #FFf9E0;
-}
 .mode_light .topmenu{
-    width: 250px;
+    width: 200px;
     position: absolute;
     right: 0;
-    bottom: 250px;
+    bottom: 200px;
     width: 0;
     opacity: 0;
     text-align: right;
@@ -388,7 +406,7 @@ section#menu.active .text{
     height: 75px;
 }
 .mode_light section#menu.active .topmenu{
-    width: 250px;
+    width: 200px;
 }
 .mode_light section#menu ul{
     height: auto;
@@ -407,7 +425,7 @@ section#menu.active .text{
 }
 .mode_light section#menu .leftmenu{
     position: absolute;
-    right: 210px;
+    right: 150px;
     left: 0;
     top: auto;
     bottom: 25px;
@@ -461,6 +479,9 @@ section#menu.active .text{
 .mode_light section#menu .text{
     top: 250px;
     bottom: auto;
+}
+section#footer{
+    margin-bottom: 50px;
 }
 .mode_light section#footer{
     margin-bottom: 250px;

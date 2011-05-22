@@ -6,3 +6,4 @@
     </article>
 </section>
 <?php if (xcheck('mode', 'read', array($_GET, $_COOKIE))) include 'footer_read.php'; else if (xcheck('mode', 'light', array($_GET, $_COOKIE))) include 'footer_light.php'; ?>
+</section>
