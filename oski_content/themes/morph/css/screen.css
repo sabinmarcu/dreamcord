@@ -1,0 +1,96 @@
+@font-face{
+	font-family: "ct";
+	src: url("../fonts/Champagne & Limousines.ttf");
+	font-weight: bold;
+}	
+body{
+	background-image: #fff;
+	font-family: "Lucida Grande", "Lucida Sans Unicode";
+	font-size: 10pt;
+}
+.wrapper, .fluidwidth .wrapper {
+	width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ct;
+}
+nav{
+	position: absolute;
+	right: 90px;
+	top: 0;
+	display: inline-block;
+	font-family: Museo Sans;
+	text-align: right;
+	background: #ffffff;
+}
+nav li, header li{
+	list-style: none;
+	display: inline-block;
+	height: 100%;
+}
+nav a, nav a:visited, header a, header a:visited{
+	display: block;
+	padding: 7px 10px;
+	color: #444;
+	text-decoration: none;
+}
+li#username, li#site{	
+	padding: 7px 10px;
+	color: #444;
+}
+nav a:hover, nav a:active, nav a:focus{
+	color: #fff;
+	background: #444;
+	text-decoration: none;
+}
+header{
+	display: inline-block;
+	width: auto;
+	margin: 50px 0 0 0;
+	padding: 0 25px;
+	background: #fff;
+	text-transform : uppercase;
+	font-family: Museo Sans;
+	font-width: bold;
+}
+header a, header a:visited{
+	padding: 10px 7px;
+	color: #000;
+}
+header a:hover, header a:active, header a:focus{
+	color: #222;
+}
+header li#site{
+	font-size: 15pt;
+	color: #222;
+	padding: 10px;
+	margin: 0 30px 0 0;
+}
+section, footer{
+	padding: 25px;
+	color: #666;
+	background: rgba(256, 256, 256, 0.6);
+	width: 900px;
+	margin: 25px;
+}
+.fluidwidth section, .fluidwidth footer{
+	width: 90%;
+	margin: 25px auto;
+}
+a, a:visited{
+	color: #444;
+}
+a:hover, a:active, a:focus{
+	color: #111;
+}
+div.credits{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+p, h1, h2, h3, h4, h5, h6{
+	text-indent: 20pt;
+}
+p::first-letter{
+	font-size: 1.3em;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>OSKI Engine installation - Step 3</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" /><meta name="robots" content="" />
+	<link rel="stylesheet" href="<?php echo Oski::app() -> baseURL ?>/oski_includes/resources/css/global.css" />
+	<link rel="stylesheet" href="<?php echo Oski::app() -> baseURL ?>/oski_includes/resources/css/install.css" />
+</head>
+<body>
+	<div class="wrapper">
+	<header>New module engine Instalation</header>
+	<nav>
+		<li class='complete'><a href="<?php echo Oski::app() -> baseURL ?>/step1/">Getting Started</a><span></span></li>
+		<li class='complete'><a href="<?php echo Oski::app() -> baseURL ?>/step2/">Site Information</a><span></span><span class='secondary'></span></li>
+		<li class='complete'><a href="<?php echo Oski::app() -> baseURL ?>/step3/">Server Information</a><span></span><span class='secondary'></span></li>
+		<li>Wrapping Up<span class='secondary'></span></li>
+	</nav>
+	<section>
+		<h1>And now ... The Server Connection!</h1>
+		<p>This is the last time we're going to ask you for information during this install.</p>
+		<p>What we need are Database credentials.</p>
+		<p>Now, the OSKI ENGINE officialy supports both MySQL and MongoDB. Choose one from the list and supply the data required.</p>
+		<p></p>
+		<form action="<?php echo Oski::app() -> baseURL ?>/step3/" method='post'>
+			<fieldset>
+				<label for="server">The database Server : </label><input type="text" name="server" id="server" placeholder="localhost" />
+				<label for="username">The database Username : </label><input type="text" name="username" id="username" placeholder="root" />
+				<label for="password">The database Password</label><input type="password" name="password" id="password" placeholder="" />
+				<label for="database">The database Database : </label><input type="text" name="database" id="database" placeholder="" />
+				<label for="port">The database Port (optional) : </label><input type="text" name="port" id="port" placeholder="leave blank if you're not sure" />
+				<hr />
+				<label for="prefix">The table (collection) Prefix (optional) : </label><input type="text" name="prefix" id="prefix" placeholder="module" />
+				<hr />
+				<label for="admuser">The Admin Account's Username (optional) : </label><input type="text" name="admuser" id="admuser" placeholder="1234" />
+				<label for="admpass">The Admin Account's Password (optional) : </label><input type="password" name="admpass" id="admpass" placeholder="1234" />
+				<div class='clear'><input type="radio" name="type" id="mysql" value='mysql'/><label for="mysql"><img src="<?php echo Oski::app() -> baseURL ?>/oski_includes/resources/images/mysqllogo.gif" alt="Mysqllogo"></label></div>
+				<div class='clear'><input type="radio" name="type" id="mongodb"  value='mongodb'/><label for="mongodb"><img src="<?php echo Oski::app() -> baseURL ?>/oski_includes/resources/images/mongodblogo.png" alt="Mysqllogo"></label></div>
+				<input type="submit" value="Continue &rarr;" class="button" />
+			</fieldset>
+		</form>
+		<p>What does the Prefix mean? It means that instead of the table (or collection) named 'users' the table will be 'module_users'. This is particulary usefull if you want to use the database for something other than module engine.</p>
+		<p>The Admin Account is created anyway, with the username 'admin' and the password '123456'. You are given now the opportunity to modify these from the start!</p>
+	</section>
+</div>
+</body>
+</html>

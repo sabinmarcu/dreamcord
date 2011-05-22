@@ -1,0 +1,472 @@
+@font-face {
+	font-family: "diavlo";
+	src: url(../fonts/Diavlo_BOOK_II_37.otf);
+}
+
+html {
+	background: url('../images/grad.png') repeat-y top left #eee;
+}
+
+body {
+	margin: 0;
+	padding: 75px 0 0;
+	font-family: "Helvetica Neue", "Helvetica", "Lucida Sans Unicode",
+		"Gill Sans", "Lucida Grande", sans-serif;
+	font-size: 8pt;
+	color: black;
+}
+
+a.site.title {
+	font-family: "diavlo";
+}
+
+ul,ol,dl {
+	padding: 15px 15px 15px 30px;
+	background: transparent;
+	border: solid 1px transparent;
+}
+
+p {
+	padding: 5px;
+	background: transparent;
+	border: solid 1px transparent;
+}
+
+pre,code {
+	padding: 15px;
+}
+
+.section {
+	margin: -15px 0 0 210px;
+	padding: 0 2%;
+	text-align: center;
+	position: relative;
+	font-size: 0;
+}
+.section > * {
+	text-align: left;
+	vertical-align: top;
+	font-size: 8pt;
+}
+
+.wrapper,.fluidwidth .wrapper {
+	width: 100%;
+}
+
+nav {
+	margin: 0;
+	padding: 0 0 0;
+	position: fixed;
+	top: 75px;
+	left: 0;
+	width: 210px;
+	color: #aaa;
+}
+
+nav li {
+	list-style: none;
+	margin: 10px 2px 0 0;
+	padding: 0 0 0 0;
+	overflow: hidden;
+}
+
+nav li a,nav li a:visited {
+	padding: 12px 15px 0 0;
+	color: #ccc;
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+	font-family: altebold, Helvetica, Arial, sans-serif;
+	background: url('../images/bars.png') no-repeat;
+	background-position: top right;
+	height: 35px;
+	transition: none 0.25s ease-in-out;
+	-o-transition: none 0.25s ease-in-out;
+	-moz-transition: none 0.25s ease-in-out;
+	-webkit-transition: none 0.25s ease-in-out;
+}
+
+tr..header th {
+	background: url(../images/agr.png) repeat-x top center #ccc;
+	background: -moz-linear-gradient(center top, #eee, #ccc);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee),
+		color-stop(1, #ccc) );
+}
+
+tr td {
+	background: url(../images/agr.png) repeat-x top center #fff;
+	background: -moz-linear-gradient(center top, #eee, #fff);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee),
+		color-stop(1, #fff) );
+}
+
+tr th {
+	background: url(../images/agr.png) repeat-x top center #e6e6e6;
+	background: -moz-linear-gradient(center top, #eee, #e6e6e6);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee),
+		color-stop(1, #e6e6e6) );
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul ul {
+	margin: 0 10px 0 0;
+	padding: 0;
+	color: #888;
+	opacity: 0;
+	height: 0;
+}
+
+nav li:hover ul {
+	opacity: 1;
+	height: auto;
+}
+
+nav ul li {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul ul li a,nav ul ul li a:hover,nav ul ul li a:focus,nav ul ul li a:active,nav ul ul li a:visited
+	{
+	background: none;
+	padding: 5px 15px 0 0;
+}
+
+nav li a:hover,nav li a:focus {
+	text-decoration: none;
+	color: #fff;
+	background-position: 100% -47px;
+}
+
+nav li a:active {
+	background-position: 100% -94px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url('../images/header.png') top left repeat-x;
+	box-shadow: 0 0 15px #444;
+	overflow: hidden;
+	height: 45px;
+	z-index: 999999;
+}
+
+.header a,.header a:visited {
+	display: inline-block;
+	clear: none;
+	color: #446;
+	font-weight: bold;
+	padding: 0 2px;
+}
+
+.header a:active,.header a:hover,.header a:focus {
+	text-decoration: none;
+	color: #644;
+}
+
+.header .admin {
+	float: right;
+	padding: 15px 15px 0 0;
+	display: inline-block;
+	clear: none;
+	color: #666;
+}
+
+.header h1,.header h5,.header h1:hover,.header h1,.header h5,.header h1:focus,.header h5:hover,
+	, .header h5:focus {
+	background: transparent;
+	border: none;
+}
+
+a.site.title {
+	font-size: 18pt;
+	border: none;
+	margin: 6px 0 0 10px;
+	padding: 5px 10px 2px 10px;
+	color: #ddd;
+	display: inline-block;
+	clear: none;
+	vertical-align: top;
+	float: left;
+	background: url('../images/title.png') left 7px repeat-x #bbb;
+	border: solid 1px #aaa;
+	border-radius: 5px;
+	text-shadow: 0 0 1px #888;
+	height: 25px;
+}
+
+a.site.title:hover,a.site.title:active,a.site.title:focus {
+	background: url('../images/title.png') left -25px repeat-x #555;
+	color: #fff;
+	text-shadow: 0 0 2px #444;
+}
+
+ul.huge li {
+	text-transform: capitalize;
+	font-size: 10pt;
+}
+
+.aside {
+	width: 48%;
+	margin: 2% 1% 0;
+	display: inline-block;
+}
+
+.article {
+	margin: 15px 1% 5px 1%;
+}
+
+.aside .container,.article {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 15px #ddd;
+	border: solid 1px #ccc;
+}
+
+.aside .container h1,h2 {
+	font-size: 10pt;
+	padding: 10px 5px
+}
+
+.aside .container li {
+	list-style: none;
+}
+
+fieldset,legend {
+	background: white;
+}
+
+.input {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee),
+		color-stop(1, #fff) );
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+input[type='submit'] {
+	padding: 10px 5px;
+}
+
+input,textarea,select {
+	width: 100%;
+	background: none;
+	border: none;
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	text-align: left;
+}
+
+select,input[type='select'],input[type='text'] {
+	-webkit-appearance: none;
+}
+
+input[type='checkbox'] {
+	-webkit-appearance: checkbox;
+	width: auto;
+	display: inline-block;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+input[type='radio'] {
+	width: auto;
+}
+
+label {
+	display: inline-block;
+	float: none;
+	width: auto;
+	padding: 5px 0 5px 15px;
+	color: #444;
+}
+
+fieldset input:hover,fieldset textarea:hover,input:hover,textarea:hover
+	{
+	background: auto;
+	border: auto;
+}
+
+.input:hover {
+	background: #fff;
+	border: solid 1px #ccc;
+}
+
+div.block.container {
+	display: block;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc),
+		color-stop(1, #aaa) );
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 15px;
+	margin: 25px 0;
+	border: solid 1px #999;
+}
+
+div.block.container div,div.block.container li {
+	border-radius: 10px;
+	padding: 5px 10px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff),
+		color-stop(1, #ddd) );
+	margin: 10px;
+	border: solid 1px #eee;
+	transition: none;
+	-o-transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+}
+
+div.block.container div  ..article {
+	display: block;
+	clear: both;
+}
+
+div.block.container div.sidebox.left {
+	float: left;
+	width: 45%;
+	clear: left;
+}
+
+div.block.container div.sidebox.right {
+	float: right;
+	width: 45%;
+	clear: right;
+}
+
+div.block.container li {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5 10px;
+}
+
+div.options {
+	position: fixed;
+	bottom: 15px;
+	left: 15px;
+	top: auto;
+	right: auto;
+}
+
+div.options * {
+	vertical-align: bottom;
+}
+
+div.options input {
+	color: #666;
+}
+
+h2.title {
+	display: block;
+	border: none;
+	border-radius: 5px;
+	margin: 2px 2px 0px 2px;
+	padding: 15px;
+	font-size: 12pt;
+	background: url('../images/htitle.png') repeat-x top left #347;
+	color: #fff;
+	font-family: inherit;
+}
+
+div.content {
+	padding: 15px;
+	overflow: hidden;
+	clear: both;
+	position: relative;
+}
+
+div.content.small {
+	padding: 5px
+}
+
+.section ul,.section dl,.section ol {
+	padding: 5px 0 5px 15px;
+	margin: 0;
+}
+
+label.left {
+	clear: none;
+}
+
+h6 {
+	padding: 0;
+	margin: 5px;
+}
+
+.title a {
+	color: inherit;
+}
+
+hr {
+	border: inset 1px #fff;
+	margin: 5px 0;
+}
+
+.boxed * {
+	border-radius: 0 !important;
+}
+
+.actions {
+	text-align: right;
+	padding: 5px;
+}
+
+.actions a,.actions a:visited {
+	background: #E6F900;
+	padding: 3px 7px 1px 7px;
+	margin: 1px;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #444;
+}
+
+.actions a:hover,.actions a:active,.actions a:focus {
+	background-color: #444;
+	border-color: #666;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navelem {
+	clear: both
+}
+
+.actions {
+	float: right;
+	display: inline-block;
+}
+
+.content.small.accordion {
+	margin: -5px;
+}
+
+.article.accordion {
+	margin: 0 0 0 15px;
+	border-radius: 0 !important;
+}
+
+#layouts>.article>.content>.article.accordion {
+	margin: 15px 0;
+}
+
+.content.small.accordion .input {
+	border-radius: 0 !important;
+}
+
+.error,.success,.warning {
+	margin-top: 0px;
+}

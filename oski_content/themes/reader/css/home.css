@@ -1,0 +1,55 @@
+header.home{
+	padding: 0;
+	border: none;
+	text-shadow: 0 1px 1px white;
+	overflow: hidden;
+	height: 225px;
+}
+header.home .logowrapper{	
+	background: url(../images/eee2.png) repeat-x top center #aaa;
+	float: left;
+	-webkit-box-shadow: 0 0 50px #444;
+}
+header.home .site.logo{
+	background: url(../images/grigorescu.png) right top;
+	height: 225px;
+	width: 150px;
+}
+header.home .text{
+	margin: 0 0 0 150px;
+	padding: 35px;
+	height: 100px;
+	font-size: 10pt;
+	background: url(../images/333.png) repeat-x bottom center #555;
+	height: 120px;
+	border: solid 1px #777;
+	border-bottom: none;
+	border-left: none;
+}
+header.home .site.logo:hover{
+	background-position: left top;
+}
+header.home h2.site.tagline{
+	color: #fff;
+	text-shadow: 0 1px 1px black;
+	font-size: 12pt;
+}
+header.home h1.site.title{
+ 	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	text-align: left;
+}
+header.home nav{
+	vertical-align: bottom;
+	display: block;
+	height: 35px;
+	border-bottom-left-radius: 0;
+}
+header.home nav a, header.home nav a:visited{
+	padding: 10px 0;
+}
+header.home nav a:hover, header.home nav a:active, header.home nav a:focus{
+	background: #ccc;
+}

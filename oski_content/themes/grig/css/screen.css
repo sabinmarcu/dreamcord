@@ -1,0 +1,171 @@
+@font-face{
+	font-family: "maven";
+	src: url('../fonts/maven.otf');	
+}
+@font-face{
+	font-family: "mel";
+	src: url('../fonts/melbourne.otf');	
+}
+body{
+	font-family: "maven", "Helvetica", "Tahoma", "Arial", sans-serif;
+	color: #666;
+}
+.wrapper, .fluidwidth .wrapper{
+	width: 100%;
+}
+.nav{
+	display: inline-block;
+	position: absolute;
+	z-index: 99999;
+	top: 0;
+	font-family: "mel", "Arial";
+}
+.nav.admin{	
+	right: 0px;
+	text-align: right;
+}
+.nav.main{	
+	left: 0;
+	text-align: center;
+	right: 0;
+}
+.nav ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a, .nav ul li a:hover{
+	display: block;
+	padding: 5px 8px 0;
+	font-size: 12pt;
+}
+.sidebar *{
+	transition: none;
+	-o-transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+}
+.sidebar{
+	display: inline-block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	height: 100%;
+	font-family: "mel", "Arial";
+}
+.sidebar .sidebar-content{	
+	padding: 25px 15px 55px;
+	position: relative;
+}
+.sidebar .logo{
+	display: block;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	font-size: 54pt;
+	color: #bdf;
+}
+.sidebar .text{
+	display: block;
+	text-align: center;
+	font-size: 22pt;
+	color: #bdf;
+}
+.sidebar .navigation{
+	padding: 0;
+	margin: 50px 0 0 0;
+	font-size: 14pt;
+}
+.sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sidebar ul ul{
+	margin: 0 0 0 25px;
+	font-size: 0.8em;
+}/*
+.sidebar ul ul{
+	display: none;
+}
+.sidebar ul:hover ul{
+	display: block;
+}*/
+a, a:visited{
+	color: #acf;
+}
+a:focus, a:active, a:hover{
+	text-decoration: none;
+	color: #69f;
+}
+.sidebar a:focus .logo, .sidear a:active .logo, .sidebar a:hover .logo{
+	color: #69c;
+}	
+.sidebar a:focus .text, .sidear a:active .text, .sidebar a:hover .text{
+	color: #69c;
+}
+.main-content{
+	margin: 0 0 0 300px;
+	padding: 100px 0 50px 0;
+	text-align: justify;
+	position: relative;
+	width: 675px;
+}
+.fluidwidth .main-content{
+	width: auto;
+	margin-right: 25px;
+}
+.fluidwidth .main-content .nav.admin{
+	right: 75px;
+}
+.shadow{
+	display: block;
+	position: fixed;
+	right: 0;
+	left: 0;
+	margin: 0 0 0 300px;
+	height: 100px;
+}
+.shadow.top{
+	top: 0;
+	background: url('../images/grad.png') repeat-x 0 -100px;
+}
+.shadow.bottom{
+	bottom: 0;
+	background: url('../images/grad.png') repeat-x 0 0;
+	}
+div.options{
+	right: 25px;
+	top: 0px;
+}
+.options input{
+	color: #ccc;
+}
+.footer, .credits{
+	position: absolute;
+	z-index: 999999;
+	bottom: 0;
+	left: 0;
+	padding: 0 0 10px 0;
+	font-family: "mel";
+	color: #ccc;
+	text-align: left;
+}
+.credits{
+	left: 15px;
+	bottom: 0px;
+	height: 35px;
+}
+.footer a, .footer a:visited{
+	color: #ccc;
+}
+.footer a:active, .footer a:focus, .footer a:hover{
+	color: #aaa;
+}

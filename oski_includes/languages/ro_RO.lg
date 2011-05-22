@@ -1,0 +1,459 @@
+# Romanian Translation
+
+#=:
+msgsrc :=: "<u>M</u>y Account"
+msgstr :=: "Contul <u>M</u>eu"
+
+#=:
+msgsrc :=: "User Admin Panel"
+msgstr :=: "Panoul de administrare al utilizatorului"
+
+#=:
+msgsrc :=: "<u>C</u>ommand Pannel"
+msgstr :=: "Panoul de <u>C</u>omanda"
+
+#=:
+msgsrc :=: "Admin Panel"
+msgstr :=: "Panoul de Administratie"
+
+#=:
+msgsrc :=: "<u>L</u>ogout</a>"
+msgstr :=: "Deautentificare (<u>L</u>)"
+
+#=:
+msgsrc :=: "Logout!"
+msgstr :=: "Deautentifica-ma!"
+
+
+#=:
+msgsrc :=: "Logout"
+msgstr :=: "Deautentificare"
+
+
+#=:
+msgsrc :=: "You can always log in back."
+msgstr :=: "Te poti intotdeauna reautentifica."
+
+#=:
+msgsrc :=: "Continue"
+msgstr :=: "Continu&#259;"
+
+#=:
+msgsrc :=: "<u>L</u>ogin"
+msgstr :=: "Autentificare (<u>L</u>)"
+
+#=:
+msgsrc :=: "Login!"
+msgstr :=: "Autentifica-te!"
+
+#=:
+msgsrc :=: "Register!"
+msgstr :=: "Inregistreaza-te!"
+
+#=:
+msgsrc :=: "<u>R</u>egister"
+msgstr :=: "In<u>r</u>egistrare"
+
+#=:
+msgsrc :=: "Register"
+msgstr :=: "Inregistrare"
+
+#=:
+msgsrc :=: "Enter your Name"
+msgstr :=: "Numele Tau : "
+
+#=:
+msgsrc :=: "Enter your Surname"
+msgstr :=: "Prenumele Tau : "
+
+#=:
+msgsrc :=: "Enter your Username"
+msgstr :=: "Numele de Utilizator"
+
+#=:
+msgsrc :=: "Enter your Password"
+msgstr :=: "Parola : "
+
+#=:
+msgsrc :=: "Enter your Password yet again ... "
+msgstr :=: "Reintrodu Parola : "
+
+#=:
+msgsrc :=: "Enter your E-mail Address"
+msgstr :=: "Adresa de E-Mail : "
+
+#=:
+msgsrc :=: "Enter your Website"
+msgstr :=: "Site Web : "
+
+#=:
+msgsrc :=: "Tell us something about yourself ... "
+msgstr :=: "Spune-ne ceva despre tine : "
+
+#=:
+msgsrc :=: "My name is John Doe ... "
+msgstr :=: "Numele meu este John Doe ... "
+
+#=:
+msgsrc :=: "Edit your Profile ! "
+msgstr :=: "Editeaza-ti Profilul !"
+
+#=:
+msgsrc :=: "<strong>Observation : </strong> The fields marked in '<strong>*</strong>' are not mandatory. The registration can continue without them!"
+msgstr :=: "<strong>Observatie : </strong> Campurile marcate cu '<strong>*</strong>' nu sunt obligatorii. Inregistrarea poate continua in lipsa lor!"
+
+#=:
+msgsrc :=: "Login"
+msgstr :=: "Autentificare"
+
+#=:
+msgsrc :=: "Do you want to remain logged in for 7 days?"
+msgstr :=: "Vrei sa ramai autentificat pentru o saptamana?"
+
+#=:
+msgsrc :=: "Select the theme you wanna use!"
+msgstr :=: "Selecteaza tema pe care vrei sa o folosesti!"
+
+#=:
+msgsrc :=: "Back to Top"
+msgstr :=: "Intoarce-te la inceputul paginii"
+
+#=:
+msgsrc :=: "Change Theme!"
+msgstr :=: "Modifica Tema!"
+
+#=:
+msgsrc :=: "Houston, we have a problem !"
+msgstr :=: "Houston, avem o problema!"
+
+#=:
+msgsrc :=: "Reason"
+msgstr :=: "Motivul"
+
+#=:
+msgsrc :=: "Edit My Profile"
+msgstr :=: "Vreau s&#259;-mi editez profilul"
+
+#=:
+msgsrc :=: "E-Mail Address"
+msgstr :=: "Adresa de E-Mail"
+
+#=:
+msgsrc :=: "at"
+msgstr :=: "la"
+
+#=:
+msgsrc :=: "dot"
+msgstr :=: "punct"
+
+
+#=:
+msgsrc :=: "Web Site"
+msgstr :=: "Site Web"
+
+#=:
+msgsrc :=: "Engine Configuration (<u>O</u>)"
+msgstr :=: "Configurarea Aplicatiei (<u>O</u>)"
+
+
+#=:
+msgsrc :=: "Successfull Update !"
+msgstr :=: "Actualizare Reusita !"
+
+#=:
+msgsrc :=: "Redirecting you to your profile page"
+msgstr :=: "Va redirectionam acum c&#259;tre pagina de profil"
+
+#=:
+msgsrc :=: "Taking you back ..."
+msgstr :=: "Te ducem inapoi de unde ai plecat ..."
+
+#=:
+msgsrc :=: "Configure the OSKI ENGINE installation"
+msgstr :=: "Configureaz&#259; instalatia OSKI ENGINE"
+
+#=:
+msgsrc :=: "Extensions Zone (<u>E</u>)"
+msgstr :=: "Zona Extensiilor (<u>E</u>)"
+
+#=:
+msgsrc :=: "Configure the available extensions or install new ones"
+msgstr :=: "Configureaza extensiile disponibile sau instaleaz&#259; altele noi"
+#=:
+msgsrc :=: "Powered by"
+msgstr :=: "Generat cu"
+
+#=:
+msgsrc :=: "Theme in use"
+msgstr :=: "Tema folosit&#259;"
+
+#=:
+msgsrc :=: "by"
+msgstr :=: "de"
+
+#=:
+msgsrc :=: "Visit Site"
+msgstr :=: "Viziteaz&#259; Site-ul"
+
+#=:
+msgsrc :=: "Welcome Back, "
+msgstr :=: "Bine ai revenit, "
+
+#=:
+msgsrc :=: "Howdy, "
+msgstr :=: "Salutare, "
+
+#=:
+msgsrc :=: "Hi, "
+msgstr :=: "Salut, "
+
+#=:
+msgsrc :=: "Glad to have you back, "
+msgstr :=: "Ne bucur&#259;m ca te-ai intors, "
+
+#=:
+msgsrc :=: "OSKI ENGINE Websites"
+msgstr :=: "Site-uri web OSKI ENGINE"
+
+#=:
+msgsrc :=: "Create a new Website"
+msgstr :=: "Creaz&#259; un nou site web"
+
+#=:
+msgsrc :=: "NOTE"
+msgstr :=: "NOT&#258;"
+
+#=:
+msgsrc :=: "The configuration file it will use"
+msgstr :=: "Fisierul de configuratie pe care il va folosi"
+
+#=:
+msgsrc :=: "The domain it will be redirected from"
+msgstr :=: "Domeniul de pe care va fi redirectionat"
+
+#=:
+msgsrc :=: "You only have access to the sites built from this particular site."
+msgstr :=: "Nu ai acces decat la site-urile ce au fost construite cu ajutorul acestui site."
+
+#=:
+msgsrc :=: "A single OSKI ENGINE application can be used to build more web sites, and those themselves can build other web sites, and so on."
+msgstr :=: "O singura aplicatie OSKI ENGINE poate fi folosita pentru a construi mai multe site-uri web, iar acestea, la randul lor, pot construi alte site-uri si tot asa."
+
+#=:
+msgsrc :=: "Each 'parent' application can edit the contents of both itself and of its 'children'."
+msgstr :=: "Fiecare aplicatie 'parinte' poate sa editeze continutul atat al sau, cat si al 'copiilor' sai."
+
+#=:
+msgsrc :=: "title"
+msgstr :=: "titlu"
+
+#=:
+msgsrc :=: "tagline"
+msgstr :=: "slogan"
+
+#=:
+msgsrc :=: "language"
+msgstr :=: "limb&#259;"
+
+#=:
+msgsrc :=: "charset"
+msgstr :=: "set de caractere"
+
+#=:
+msgsrc :=: "default theme"
+msgstr :=: "tema implicita"
+
+#=:
+msgsrc :=: "error theme"
+msgstr :=: "tema de eroare"
+
+#=:
+msgsrc :=: "login theme"
+msgstr :=: "tema de logare"
+
+#=:
+msgsrc :=: " of the Web Site"
+msgstr :=: " Site-ului Web"
+
+#=:
+msgsrc :=: " of the Database"
+msgstr :=: " Bazei de Date"
+
+#=:
+msgsrc :=: "title"
+msgstr :=: "Titlul"
+
+#=:
+msgsrc :=: "tagline"
+msgstr :=: "Sloganul"
+
+#=:
+msgsrc :=: "language"
+msgstr :=: "Limba"
+
+#=:
+msgsrc :=: "server"
+msgstr :=: "server"
+
+#=:
+msgsrc :=: "database"
+msgstr :=: "baza de date"
+
+#=:
+msgsrc :=: "username"
+msgstr :=: "Nume de utilizator"
+
+#=:
+msgsrc :=: "charset"
+msgstr :=: "Set-ul de caractere al"
+
+#=:
+msgsrc :=: "table prefix"
+msgstr :=: "Prefix-ul"
+
+#=:
+msgsrc :=: "server"
+msgstr :=: "Server-ul"
+
+#=:
+msgsrc :=: "password"
+msgstr :=: "Parola"
+
+#=:
+msgsrc :=: "port"
+msgstr :=: "Port-ul"
+
+#=:
+msgsrc :=: "actual database"
+msgstr :=: "Baza de Date"
+
+#=:
+msgsrc :=: "Edit the basic information of the Web Site : "
+msgstr :=: "Editeaza informatiile de baza ale Site-ului Web : "
+
+#=:
+msgsrc :=: "Edit the site-specific settings : "
+msgstr :=: "Editeaza setarile specifice unui site web : "
+
+#=:
+msgsrc :=: "Edit the database settings : "
+msgstr :=: "Editeaza setarile bazei de date : "
+
+#=:
+msgsrc :=: "Edit the theming settings : "
+msgstr :=: "Editeaza setarile pentru teme : "
+
+#=:
+msgsrc :=: "The default theme"
+msgstr :=: "Tema implicita"
+
+#=:
+msgsrc :=: "The "
+msgstr :=: ""
+
+#=:
+msgsrc :=: "The administration theme (used for the admin panel)"
+msgstr :=: "Tema de adminstratie (folosita in cazul meniului de administratie)"
+
+#=:
+msgsrc :=: "The error theme (used when a serious error occurs)"
+msgstr :=: "Tema de eroare (este folosita in momentul in care survine o eroare grava in executia aplicatiei)"
+#=:
+msgsrc :=: "The login theme (used in when logging in, logging out, or registering)"
+msgstr :=: "Tema de autentificare (folosita in momentul autentificarii, deautentificarii sau inregistrarii)"
+
+#=:
+msgsrc :=: "The user panel theme (used when a non-admin user logges in and desires to change his settings)"
+msgstr :=: "Tema panoului utilizatorului (folosita in momentul in care un utilizator ce nu este administrator se logheaza si doreste sa isi schimbe setarile personale)"
+
+#=:
+msgsrc :=: "Remove the configuration as well?"
+msgstr :=: "Sterge si configuratia de asemenea?"
+
+#=:
+msgsrc :=: "Delete"
+msgstr :=: "Sterge"
+
+#=:
+msgsrc :=: "Pages (<u>P</u>)"
+msgstr :=: "Pagini (<u>P</u>)"
+
+#=:
+msgsrc :=: "Add, edit or remove pages."
+msgstr :=: "Adauga, editeaza sau sterge pagini."
+
+#=:
+msgsrc :=: "Monday"
+msgstr :=: "Luni"
+
+#=:
+msgsrc :=: "Tuesday"
+msgstr :=: "Marti"
+
+#=:
+msgsrc :=: "Wednesday"
+msgstr :=: "Miercuri"
+
+#=:
+msgsrc :=: "Thursday"
+msgstr :=: "Joi"
+
+#=:
+msgsrc :=: "Friday"
+msgstr :=: "Vineri"
+
+#=:
+msgsrc :=: "Saturday"
+msgstr :=: "Sambata"
+
+#=:
+msgsrc :=: "Sunday"
+msgstr :=: "Duminica"
+
+#=:
+msgsrc :=: "January"
+msgstr :=: "Ianuarie"
+
+#=:
+msgsrc :=: "February"
+msgstr :=: "Februarie"
+
+#=:
+msgsrc :=: "March"
+msgstr :=: "Martie"
+
+#=:
+msgsrc :=: "April"
+msgstr :=: "Aprilie"
+
+#=:
+msgsrc :=: "May"
+msgstr :=: "Mai"
+
+#=:
+msgsrc :=: "June"
+msgstr :=: "Iunie"
+
+#=:
+msgsrc :=: "July"
+msgstr :=: "Iulie"
+
+#=:
+msgsrc :=: "August"
+msgstr :=: "August"
+
+#=:
+msgsrc :=: "September"
+msgstr :=: "Septembrie"
+
+#=:
+msgsrc :=: "October"
+msgstr :=: "Octombrie"
+
+#=:
+msgsrc :=: "November"
+msgstr :=: "Noiembrie"
+
+#=:
+msgsrc :=: "December"
+msgstr :=: "Decembrie"

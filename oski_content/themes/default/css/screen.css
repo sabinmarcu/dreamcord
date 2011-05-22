@@ -1,0 +1,128 @@
+html{
+	background: #000;
+}
+body{
+	font-family:  "Lucida Grande", "Lucida Sans Unicode", "Kalimba", "Segoe UI", "Tahoma", "Arial";
+	background: url('../images/background.png') repeat-x top center black;
+	text-indent: 1.5em;
+	font-size: 10pt;
+	padding: 45px 0 0;
+}
+body.bigfont{
+	font-size: 1.5em;
+}
+body.smallfont{
+	font-size: 0.5em;
+}
+div.options input{
+	color: white;
+}
+p::first-letter{
+	font-size: 1.3em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Melbourne", "Roke1984";
+}
+header, section, footer{
+	padding: 45px 25px 35px;
+	background: #ddd;
+}
+h1.site.title{
+	clear: none;
+	display: inline-block;
+}
+header{
+	background: url('../images/header.png') top center repeat-x;
+	margin: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	color: #fff;
+	text-indent: 1em;
+	max-height: 28px;
+	min-height: 28px;
+}
+nav{	
+	background:  url('../images/header.png') bottom center repeat-x;
+	padding: 0 25px;
+	text-indent: 0;
+	max-height: 35px;
+	min-height: 35px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+nav ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	min-width: 200px;
+}
+nav ul li:hover ul{
+	display: block
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+	height: 100%;
+	position: relative
+}
+nav ul ul li a, nav ul ul li a:visited{
+	color: #ccc;
+	background: none;	
+}
+nav ul ul li a:hover, nav ul ul li a:active, nav ul ul li a:focus{
+	color: #222;
+	background: none;
+}
+nav li a, nav li a:visited, nav li#username{
+	display: block;
+	padding: 10px 5px;
+	color: #fff;
+	max-height: 15px;
+	min-height: 15px;	
+}
+nav li#username{
+	display: inline-block;
+}
+nav li a:focus, nav li a:active, nav li a:hover{
+	color: #fff;
+	background-color: #728ACD;
+}
+section{	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f6f6f6), color-stop(1, #ffffff) );
+	border-bottom: solid 1px #888;
+}
+footer{	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+header h1{
+	padding: 0;
+	margin: 0;
+}
+a, a:visited{
+	color: #3B5998;
+}
+a:hover, a:active, a:focus{
+	color: #3B59C6;
+}
+aside{
+	background: #e6e6e6;
+	border: solid 1px #ddd;
+	padding: 10px;
+	width: 45%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 25px 0 0 0;
+}

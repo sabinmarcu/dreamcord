@@ -1,0 +1,17 @@
+html{
+	background: -webkit-gradient(linear, left top, 200 top, color-stop(0, #046), color-stop(0.97, #069), color-stop(0.98, #666), color-stop(0.99, #fff)) #fff;
+	font-family: "Arial";
+	font-size: 10pt;
+}
+.wrapper, .fluidwidth .wrapper{
+	width: auto;
+	padding: 0 25px 0 225px;
+}
+*::selection{
+	background: #0cf;
+	color: #fff;
+	text-shadow: 0 1px 1px #444;
+}
+p{
+	text-indent: 25px;
+}
