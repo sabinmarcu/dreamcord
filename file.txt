@@ -1,0 +1,4 @@
+0 => 
+	0 => Creating new Singleton object : Oski
+	1 => success
+
