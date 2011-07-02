@@ -1,1 +1,0 @@
-<?php announce("warning", array("There is no Administration Panel"), array("It seems that this module has no administation panel.")); ?>
