@@ -17,7 +17,7 @@
 	error_reporting(E_ALL);
 	define("OEDIR", dirname(__FILE__));
 
-	set_include_path( OEDIR. "/oski_includes" . PATH_SEPARATOR . OEDIR. "/oski_includes/engine" . PATH_SEPARATOR . OEDIR. "/oski_includes/helpers" . PATH_SEPARATOR . get_include_path() );
+	set_include_path( OEDIR. "/oski_includes" . PATH_SEPARATOR . OEDIR. "/oski_includes/engine" . PATH_SEPARATOR . OEDIR. "/oski_includes/helpers" . PATH_SEPARATOR . OEDIR. "/oski_includes/prototypes" . PATH_SEPARATOR . OEDIR. "/oski_includes/factories" . PATH_SEPARATOR . get_include_path() );
 	function __oskiengine_autoload($class)	{
 		$class = strtolower($class);
 		$files = array("", ".class", ".event", ".event", ".helper", ".factory");
@@ -47,7 +47,8 @@
 	
 	var_dump(
 		Oski::app(),
-		Bogus::obj()
+		Bogus::obj(),
+		dataManagerConstructor::getDataManager("mysql")
 	);
 	
 ?>
