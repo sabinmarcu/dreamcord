@@ -15,8 +15,8 @@ class Singleton extends Prototype
 		return self::$_instances[$c];
 	}
 
-	public function __construct($class)	{
-		parent::__construct($class);
+	public function __construct()	{		
+		parent::__construct();
 		self::logEvent("Creating new Singleton object : " . $this -> _classname, "success");
 	}
 

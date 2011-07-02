@@ -4,8 +4,8 @@ class Prototype{
 	protected static $_classname = "";
 	protected static $_history = array();
 			
-	protected function __construct($class = "Prototype"){
-		$this -> _classname = $class;
+	protected function __construct(){
+		$this -> _classname = get_class($this);
 		self::logEvent("Creating new object from Prototype", "success");
 	}	
 	
