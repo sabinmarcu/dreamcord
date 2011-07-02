@@ -1,3 +1,0 @@
-# Documentation
-
-### Mega BUllshit

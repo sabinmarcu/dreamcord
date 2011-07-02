@@ -1,1 +1,0 @@
-<?php devlog($_POST) ?>
