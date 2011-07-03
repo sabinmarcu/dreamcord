@@ -47,8 +47,8 @@
 	
 	var_dump(
 		Oski::app(),
-		Bogus::obj(),
-		dataManagerConstructor::getDataManager("mysql")
+		dataManagerConstructor::getDataManager("mysql"),
+		config::db() -> getAll("site_config")
 	);
 	
 ?>
