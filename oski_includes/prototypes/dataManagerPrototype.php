@@ -1,5 +1,5 @@
 <?php
-class dataManagerPrototype extends Singleton	{
+abstract class dataManagerPrototype extends Singleton	{
 	
 	protected $_server;
 	protected $_port;
@@ -11,32 +11,15 @@ class dataManagerPrototype extends Singleton	{
 	public static function obj($class = __CLASS__)	{
 		return parent::obj($class);
 	}
-	public function createTable()	{
-		
-	}
-	public function addField()	{
-		
-	}
-	public function removeField()	{
-		
-	}
-	public function insertRow()	{
-		
-	}
-	public function findRow()	{
-		
-	}
-	public function getAll()	{
-		
-	}
-	public function describeDatabase()	{
-		
-	}
-	protected function connectToDatabase()	{
-		
-	}
-	protected function connectToServer()	{
-		
-	}
+
+	abstract public function createTable();
+	abstract public function addField();
+	abstract public function removeField();	
+	abstract public function insertRow();	
+	abstract public function findRow();	
+	abstract public function getAll();	
+	abstract public function describeDatabase();
+	abstract protected function connectToDatabase();	
+	abstract protected function connectToServer();	
 }
 ?>
