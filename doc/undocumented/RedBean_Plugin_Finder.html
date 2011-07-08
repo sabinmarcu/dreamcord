@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class RedBean_Plugin_Finder</title>
+			<link rel="stylesheet" href="styles/phpdoc.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> RedBean_Plugin_Finder</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="undocumented/RedBean_Plugin.html">RedBean_Plugin</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">RedBean Bean Finder</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Gabor de Mooij</li>
+				<li><span class="field">license:</span> BSD</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="undocumented/_framework_includes---prototypes---r.php.html">/framework_includes/prototypes/r.php</a> (line <span class="field">5694</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					<img src="images/StaticMethod.png" alt=" "/>
+					static
+					<a href="#parseGoldSQL" title="details" class="method-name">parseGoldSQL</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$SQL</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$currentTable</span>, <span class="var-type"><a href="undocumented/RedBean_ToolBox.html">RedBean_ToolBox</a></span>&nbsp;<span class="var-name">$toolbox</span>)
+																<span class="method-result">string</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/StaticMethod.png" alt=" "/>
+					static
+					<a href="#where" title="details" class="method-name">where</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$SQL</span> = <span class="var-default">&quot; 1 &quot;</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$values</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$tools</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ignoreGSQLWarn</span> = <span class="var-default">false</span>])
+																<span class="method-result">array</span>
+									</div>
+																															</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+													<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="parseGoldSQL" id="parseGoldSQL"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static parseGoldSQL</span> (line <span class="line-number">5785</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Parses Gold SQL.</p>
+<p class="description"><p>Checks whether columns and tables prefixed with @ exists,  if not they are being replaced by NULL leaving intact the  rest of the query and making the SQL continue to work even  if it's partially broken.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> resulting sql</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			parseGoldSQL
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$SQL</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$currentTable</span>, <span class="var-type"><a href="undocumented/RedBean_ToolBox.html">RedBean_ToolBox</a></span>&nbsp;<span class="var-name">$toolbox</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$SQL</span><span class="var-description">: sql code to execute</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$currentTable</span><span class="var-description">: name of the table</span>			</li>
+					<li>
+				<span class="var-type"><a href="undocumented/RedBean_ToolBox.html">RedBean_ToolBox</a></span>
+				<span class="var-name">$toolbox</span><span class="var-description">: toolbox to use</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="where" id="where"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static where</span> (line <span class="line-number">5722</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Fetches a collection of OODB Bean objects based on the SQL  criteria provided. For instance;</p>
+<p class="description"><p><ul><li>RedBean_Plugin_Finder::where(&quot;page&quot;, &quot; name LIKE '%more%' &quot;);</li></ul>  Will return all pages that have the word 'more' in their name.  The second argument is actually just plain SQL; the function expects  this SQL to be compatible with a SELECT * FROM TABLE WHERE X query,  where X is ths search string you provide in the second parameter.  Another example, using slots:</p><p><ul><li>RedBean_Plugin_Finder::where(&quot;page&quot;, &quot; name LIKE :str &quot;,array(&quot;:str&quot;=&gt;'%more%'));</li></ul>  Also, note that the default search is always 1. So if you do not  specify a search parameter this function will just return every  bean of the given type:</p><p><ul><li>RedBean_Plugin_Finder::where(&quot;page&quot;);</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> beans we come up with..</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			where
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$SQL</span> = <span class="var-default">&quot; 1 &quot;</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$values</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$tools</span> = <span class="var-default">false</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$ignoreGSQLWarn</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$type</span><span class="var-description">: type of bean you are looking for</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$SQL</span><span class="var-description">: SQL code, start with 1 if you want no WHERE-clause</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$values</span><span class="var-description">: values to bind to slots in query</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$tools</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$ignoreGSQLWarn</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 05 Jul 2011 18:34:28 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class RedBean_Adapter</title>
+			<link rel="stylesheet" href="styles/phpdoc.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="images/Interface_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle">Interface RedBean_Adapter</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Adapter Interface</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Gabor de Mooij</li>
+				<li><span class="field">license:</span> BSD</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="undocumented/_framework_includes---prototypes---r.php.html">/framework_includes/prototypes/r.php</a> (line <span class="field">1436</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																								<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#commit" title="details" class="method-name">commit</a>
+										()
+																<span class="method-result">void</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#escape" title="details" class="method-name">escape</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sqlvalue</span>)
+																<span class="method-result">void</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#exec" title="details" class="method-name">exec</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$noevent</span> = <span class="var-default">false</span>])
+																<span class="method-result">void</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#get" title="details" class="method-name">get</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+																<span class="method-result">void</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getAffectedRows" title="details" class="method-name">getAffectedRows</a>
+										()
+																<span class="method-result">integer</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getAssoc" title="details" class="method-name">getAssoc</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$values</span> = <span class="var-default">array()</span>])
+																<span class="method-result">array</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getCell" title="details" class="method-name">getCell</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+																<span class="method-result">string</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getCol" title="details" class="method-name">getCol</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+																<span class="method-result">array</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getDatabase" title="details" class="method-name">getDatabase</a>
+										()
+																<span class="method-result">object</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getErrorMsg" title="details" class="method-name">getErrorMsg</a>
+										()
+																<span class="method-result">string</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getInsertID" title="details" class="method-name">getInsertID</a>
+										()
+																<span class="method-result">integer</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getRow" title="details" class="method-name">getRow</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+																<span class="method-result">array</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#getSQL" title="details" class="method-name">getSQL</a>
+										()
+																<span class="method-result">string</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#rollback" title="details" class="method-name">rollback</a>
+										()
+																<span class="method-result">void</span>
+									</div>
+																<div class="method-definition">
+					<img src="images/Method.png" alt=" "/>
+					<a href="#startTransaction" title="details" class="method-name">startTransaction</a>
+										()
+																<span class="method-result">void</span>
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+													<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="commit" id="commit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">commit</span> (line <span class="line-number">1559</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This method is part of the RedBean Transaction Management  mechanisms.</p>
+<p class="description"><p>Commits the transaction.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			commit
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="escape" id="escape"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">escape</span> (line <span class="line-number">1448</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Escapes a value for usage in an SQL statement</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			escape
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sqlvalue</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sqlvalue</span><span class="var-description">: value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="exec" id="exec"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">exec</span> (line <span class="line-number">1459</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes an SQL Statement using an array of values to bind  If $noevent is TRUE then this function will not signal its  observers to notify about the SQL execution; this to prevent  infinite recursion when using observers.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			exec
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$noevent</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$aValues</span><span class="var-description">: values</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$noevent</span><span class="var-description">: no event firing</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="get" id="get"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">get</span> (line <span class="line-number">1469</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes an SQL Query and returns a resultset.</p>
+<p class="description"><p>This method returns a multi dimensional resultset similar to getAll  The values array can be used to bind values to the place holders in the  SQL query.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			get
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$aValues</span><span class="var-description">: values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getAffectedRows" id="getAffectedRows"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getAffectedRows</span> (line <span class="line-number">1532</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the number of rows that have been  affected by the last update statement.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> number of rows affected</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			getAffectedRows
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getAssoc" id="getAssoc"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getAssoc</span> (line <span class="line-number">1519</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes the SQL query specified in $sql and takes  the first two columns of the resultset. This function transforms the  resultset into an associative array. Values from the the first column will  serve as keys while the values of the second column will be used as values.</p>
+<p class="description"><p>The values array can be used to bind values to the place holders in the  SQL query.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> associative array result set</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAssoc
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$values</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$values</span><span class="var-description">: values to bind</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getCell" id="getCell"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getCell</span> (line <span class="line-number">1505</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes an SQL Query and returns a resultset.</p>
+<p class="description"><p>This method returns a single cell, a scalar value as the resultset.  The values array can be used to bind values to the place holders in the  SQL query.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> value from cell</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getCell
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$aValues</span><span class="var-description">: values to bind</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getCol" id="getCol"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getCol</span> (line <span class="line-number">1493</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes an SQL Query and returns a resultset.</p>
+<p class="description"><p>This method returns a single column (one array) resultset.  The values array can be used to bind values to the place holders in the  SQL query.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> column</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getCol
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$aValues</span><span class="var-description">: values to bind</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getDatabase" id="getDatabase"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getDatabase</span> (line <span class="line-number">1541</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the original database resource. This is useful if you want to  perform operations on the driver directly instead of working with the  adapter. RedBean will only access the adapter and never to talk  directly to the driver though.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> driver</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">object</span>
+		<span class="method-name">
+			getDatabase
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getErrorMsg" id="getErrorMsg"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getErrorMsg</span> (line <span class="line-number">1547</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the latest error message; if any.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> error message from server</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getErrorMsg
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getInsertID" id="getInsertID"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getInsertID</span> (line <span class="line-number">1525</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the latest insert ID.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> primary key ID</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			getInsertID
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getRow" id="getRow"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getRow</span> (line <span class="line-number">1481</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes an SQL Query and returns a resultset.</p>
+<p class="description"><p>This method returns a single row (one array) resultset.  The values array can be used to bind values to the place holders in the  SQL query.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> row</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getRow
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$aValues</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql</span><span class="var-description">: SQL</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$aValues</span><span class="var-description">: values to bind</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getSQL" id="getSQL"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getSQL</span> (line <span class="line-number">1442</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the latest SQL statement</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> SQLString</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSQL
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="rollback" id="rollback"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">rollback</span> (line <span class="line-number">1565</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This method is part of the RedBean Transaction Management  mechanisms.</p>
+<p class="description"><p>Rolls back the transaction.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			rollback
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="startTransaction" id="startTransaction"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">startTransaction</span> (line <span class="line-number">1553</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This method is part of the RedBean Transaction Management  mechanisms.</p>
+<p class="description"><p>Starts a transaction.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			startTransaction
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 05 Jul 2011 18:34:24 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>
