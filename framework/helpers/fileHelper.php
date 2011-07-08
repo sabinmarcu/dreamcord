@@ -16,13 +16,13 @@ class fileHelper extends Singleton{
         return $dir;
     }
     public static function trashDir($path)  {
-        if (end($path) !== "/") $path .= "/";
-        $dir = readdir($path)  ;
+        if (substr($path, 0, strlen($path) - 2) !== "/") $path .= "/";
+        $dir = opendir($path)  ;
         while($file = readdir($dir))    {
-            if (is_dir($path.$file))  self::trashDir($path.$file);
-            else unlink($path.$file);
+            if (is_dir($path.$file) && strpos($file, ".") !== 0)  self::trashDir($path.$file);
+            else if (!is_dir($path.$file)) unlink($path.$file);
         }
-        unlink($path);
+        rmdir($path);
     }
 }
 ?>
