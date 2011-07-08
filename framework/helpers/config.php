@@ -11,8 +11,15 @@ class config extends dataManagerPrototype{
 		}
 	}
 	public function init($database = NULL)	{
-		if ($database === NULL)	$database = CFGDIR."default";
-		R::setup("sqlite:".$database.".sqlite");
+		if ($database === NULL)	$database = APPDIR."config/default";
+                $is = file_exists($database);
+		R::setup("sqlite:".fileHelper::ensureFile($database.".sqlite"));
+                if (!$is || !self::getAll("site_info"))    {
+                    self::insertRow("site_info", array("key" => "site_title", "value" => "Amandla Website"));
+                    self::insertRow("site_info", array("key" => "site_tagline", "value" => "Translates : Courageous website"));
+                    self::insertRow("site_info", array("key" => "site_charset", "value" => "UTF-8"));
+                    self::insertRow("site_info", array("key" => "site_language", "value" => "en_US"));
+                }
 	}
 	public function addField() { }
 	public function removeField() { }	
@@ -26,7 +33,7 @@ class config extends dataManagerPrototype{
 		return self::db();
 	}	
 	public function findRow($table = NULL, $criteria = NULL) {
-		if (!$table || !$criteria)	trigger_error("Table name of Criteria set cannot be NULL");
+		if (!$table || !$criteria)	trigger_error("Table name or Criteria set cannot be NULL");
 		else {
 			$keys = array_keys($criteria);
 			$values = array_values($criteria);

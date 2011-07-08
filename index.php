@@ -19,7 +19,7 @@
         
 	var_dump(
 		Amandla::app(),
-		config::db() -> getAll("site_config"),
+		config::db() -> getAll("site_info"),
 		stringHelper::trimext("string.class.php.bak", 3), 
                 $_SERVER,
                 fileHelper::ensureFile(APPDIR."facebook/crap/fuckolla.ini")
