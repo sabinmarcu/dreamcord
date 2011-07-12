@@ -278,6 +278,7 @@ POSSIBILITY OF SUCH DAMAGES.
  *					abstract core of RedBean describing its main functionality.
  * @author			Gabor de Mooij
  * @license			BSD
+ * @package RedBeanPh
  *
  *
  * (c) G.J.G.T. (Gabor) de Mooij

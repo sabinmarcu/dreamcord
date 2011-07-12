@@ -24,7 +24,8 @@ class Singleton extends Prototype
 	 */
 	public static function obj($c = NULL)	{
 		$c = isset($c) ? $c : __CLASS__;
-		if ( !array_key_exists($c, self::$_instances) )	self::$_instances[$c] = new $c($c);		
+		if ( !array_key_exists($c, self::$_instances) )
+            self::$_instances[$c] = new $c($c);
 		return self::$_instances[$c];
 	}
 
@@ -36,5 +37,21 @@ class Singleton extends Prototype
 	public function __clone(){
                 trigger_error('Clone is not allowed.', E_USER_ERROR);
         }
+
+    /**
+     * @param string $instances
+     */
+    public static function setInstances($instances)
+    {
+        self::$_instances = $instances;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getInstances()
+    {
+        return self::$_instances;
+    }
 }
 ?>

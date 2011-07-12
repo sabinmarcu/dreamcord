@@ -9,13 +9,13 @@
 class Prototype{
 	/**
 	 * Every classname can be accessed via this value.
-	 * 
+	 *
 	 * @var string	The name of the object instance.
 	 **/
 	protected static $_classname = "";
 	/**
 	 * The history value will hold any log information available of the current session.
-	 * 
+	 *
 	 * @var string The log history.
 	 **/
 	protected static $_history = array();
@@ -23,28 +23,30 @@ class Prototype{
 	 * The construction function just saves the classname of the current object and
   	 * logs a successful instantiation.
 	 * @author Marcu Sabin
-	 */		
+	 */
+    protected static $_methods = array();
 	protected function __construct(){
 		$this -> _classname = get_class($this);
+        $this -> _methods = get_class_methods($this);
 		self::logEvent("Creating new object from Prototype", "success");
-	}	
+	}
 	/**
 	 * Logs any information passed as arguments.
-	 * 
+	 *
 	 * @return bool Wether the logging was successful or not.
 	 * @author Marcu Sabin
 	 */
 	protected static function logEvent()	{
 		try {
 			self::$_history[] = func_get_args();
-			return true;			
+			return true;
 		} catch (Exception $e) {
 			return false;
 		}
 	}
 	/**
 	 * Grabs the necessary variable wether it is protected, private, or not
-	 * 
+	 *
 	 * @param string $var The value that is to be grabbed.
 	 * @return mixed Either the value required or NULL in case it does not exist.
 	 * @author Marcu Sabin
@@ -67,15 +69,15 @@ class Prototype{
 	}
 	/**
 	 * Prints the log history either to a file or to the web page / screen.
-	 * If the parameter is specified it will print to file.			
+	 * If the parameter is specified it will print to file.
 	 *
-	 * @param string $location The path to the file in which to write the log.	
+	 * @param string $location The path to the file in which to write the log.
 	 * @return void
 	 * @author Marcu Sabin
 	 */
 	public static function printHistory($location = NULL)	{
 		if ($location)	{
-			$file = fopen($location, 'w'); fwrite($file, varTrans::getString(self::$_history)); fclose($file);
+			$file = fopen($location, 'a'); fwrite($file, "\n\n\n\n".varTrans::getString(self::$_history)); fclose($file);
 		}	else var_dump(self::$_history);
 		self::logEvent("Printing of the current session's history.", "success");
 	}
@@ -95,7 +97,7 @@ class Prototype{
 	 * @author Marcu Sabin
 	 */
 	public function __clone()	{
-		
+
 	}
 }
 ?>

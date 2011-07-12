@@ -7,7 +7,7 @@
  **/
 class Amandla extends Singleton
 {
-    private $_instance = NULL;
+    private static $_instance = NULL;
 	/**
 	 * A shorthand to aquire the Singleton Object.
 	 *
@@ -16,7 +16,7 @@ class Amandla extends Singleton
 	 */
 	public static function app()	{
 		return parent::obj(__CLASS__);
- 	}	
+ 	}
 	/**
 	 * The autoload handler to be used when requesting a new event / plugin / helper
   	 * / etc
@@ -32,10 +32,8 @@ class Amandla extends Singleton
 			if ($found)	break;
 		}
 		if ( $found )	include $found;
-		else 	{			
-			/**
-			*	@TODO : Do something when the file cannot be included. Aka, logging.
-			*/
+		else 	{
+			self::logEvent("Cannot include file {$class}.");
 		}
 	}
 	/**
@@ -46,12 +44,19 @@ class Amandla extends Singleton
 	 */
 	public function __construct()	{
 		parent::__construct();
-		spl_autoload_register('Amandla::libInc');	
-                config::db() -> init($this -> _instance);	
+		spl_autoload_register('Amandla::libInc');
+		Amandla::init();
 	}
-        public function mojuba($instance)    {
-            $this -> _instance = $instance;
-            config::db() -> init($this -> _instance);
-        }
-} // END class 
+    public static function init($instance = NULL)    {
+        Amandla::$_instance = $instance;
+        config::db() -> init($instance);
+    }
+    public static function config()    {
+        return config::db();
+    }
+    public function trigger($event)   {
+        self::app();
+        eventHandler::obj() -> trigger($event);
+    }
+} // END class
 ?>
