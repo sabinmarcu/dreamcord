@@ -67,25 +67,25 @@ class config extends dataManagerPrototype{
 	public function describeDatabase() { }
 	protected function connectToDatabase() { }
 	protected function connectToServer() { }
-        public function findProp($table = NULL, $which = NULL) {
-		if (!$table || !$which)	trigger_error("Table name of Values set cannot be NULL");
-                $ret = self::findRow($table, array("key" => $which));
-                foreach($ret as $ret);
-                return isset($ret) ? $ret -> value : NULL;
+    public function findProp($table = NULL, $which = NULL) {
+    if (!$table || !$which)	trigger_error("Table name of Values set cannot be NULL");
+            $ret = self::findRow($table, array("key" => $which));
+            foreach($ret as $ret);
+            return isset($ret) ? $ret -> value : NULL;
+    }
+    public function __call($method, $arguments)   {
+        return self::__callStatic($method, $arguments);
+    }
+    public static function __callStatic($method, $arguments)   {
+        $config = Amandla::config();
+        if (method_exists($config, $method))   return $config -> $method();
+        if (empty($arguments))    return $config::getAll($method);
+        $r = array();
+        foreach($arguments as $arg) {
+            $ret = $config::findRow($method, is_array($arg) ? $arg : array("key" => $arg));
+            $r = array_merge($r, $ret);
         }
-        public function __call($method, $arguments)   {
-            return self::__callStatic($method, $arguments);
-        }
-        public static function __callStatic($method, $arguments)   {
-            $config = Amandla::config();
-            if (method_exists($config, $method))   return $config -> $method();
-            if (empty($arguments))    return $config::getAll($method);
-            $r = array();
-            foreach($arguments as $arg) {
-                $ret = $config::findRow($method, is_array($arg) ? $arg : array("key" => $arg));
-                $r = array_merge($r, $ret);
-            }
-            return $r;
-        }
+        return $r;
+    }
 }
 ?>

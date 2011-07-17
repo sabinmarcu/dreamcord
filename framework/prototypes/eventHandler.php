@@ -48,14 +48,14 @@ class eventHandler extends Singleton {
 	        self::logEvent("Plugin '{$plugin }' (path : {$path}{$plugin}) is not installed!");
 	        return false;
         }
-        if (!file_exists($path.$plugin."/".$plugin."Juju.php")) {
-	        self::logEvent("Plugin '{$plugin}' (path : {$path}{$plugin}/{$plugin}Juju.php) has missing files!");
+        if (!file_exists($path.$plugin."/".$plugin."Module.php")) {
+	        self::logEvent("Plugin '{$plugin}' (path : {$path}{$plugin}/{$plugin}Module.php) has missing files!");
 	        return false;
         }
         return true;
     }
     private static function checkMethods($plugin, $action)	{
-        $n = $plugin."Juju";
+        $n = $plugin."Module";
         if (!method_exists($n, $action."Action") || !is_callable($n, $plugin."Action"))  {
 	        self::logEvent("Plugin '{$plugin}' is corrupted!");
 	        return false;
@@ -63,7 +63,7 @@ class eventHandler extends Singleton {
         return true;
     }
     private static function ensurePlugin($path, $plugin)	{
-        include $path.$plugin."/".$plugin."Juju.php";   $n= $plugin."Juju";
+        include $path.$plugin."/".$plugin."Module.php";   $n= $plugin."Module";
         if (!isset(self::$_plugins[$plugin]))   self::$_plugins[$plugin] = new $n();
     }
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Description of jujuHandler
+ * Description of ModuleHandler
  *
  * @author marcusabin
  */

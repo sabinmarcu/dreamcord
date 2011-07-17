@@ -15,4 +15,4 @@ echo "
 
 
 ";
-Amandla::printHistory("history");
+Amandla::printHistory("history", 'w');

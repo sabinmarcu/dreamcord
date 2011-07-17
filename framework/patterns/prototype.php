@@ -75,9 +75,9 @@ class Prototype{
 	 * @return void
 	 * @author Marcu Sabin
 	 */
-	public static function printHistory($location = NULL)	{
+	public static function printHistory($location = NULL, $mode = 'a')	{
 		if ($location)	{
-			$file = fopen($location, 'a'); fwrite($file, "\n\n\n\n".varTrans::getString(self::$_history)); fclose($file);
+			$file = fopen($location, $mode); fwrite($file, "\n\n\n\n".varTrans::getString(self::$_history)); fclose($file);
 		}	else var_dump(self::$_history);
 		self::logEvent("Printing of the current session's history.", "success");
 	}

@@ -6,11 +6,11 @@
  */
 
 /**
- * Description of envHandlerOverrideJuju
+ * Description of envHandlerOverrideModule
  *
  * @author marcusabin
  */
-class envHandlerOverrideJuju extends environmentHandlerJuju {
+class envHandlerOverrideModule extends environmentHandlerModule {
     public function splitAction()    {
         parent::splitAction();
         self::logEvent("And overrided it");

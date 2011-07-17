@@ -1,0 +1,1 @@
+<h1>Hello World!<span style='float:right'>(ip : <?= $ip ?>)</span></h1>

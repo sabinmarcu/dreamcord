@@ -94,12 +94,26 @@
 	1 => success
 
 28 => 
-	0 => Creating new Singleton object : envHandlerJuju
+	0 => Creating new Singleton object : envHandlerModule
 	1 => success
 
 29 => 
-	0 => Cannot include file model_directories.
+	0 => Cannot include file model_event_hooks.
 
 30 => 
+	0 => Cannot include file model_event_hooks.
+
+31 => 
 	0 => Cannot include file model_directories.
+
+32 => 
+	0 => Cannot include file model_directories.
+
+33 => 
+	0 => Creating new object from Prototype
+	1 => success
+
+34 => 
+	0 => Creating new Singleton object : helloWorldModule
+	1 => success
 
