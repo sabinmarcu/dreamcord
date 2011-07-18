@@ -17,14 +17,14 @@ class eventHandler extends Singleton {
 }
     public static function trigger($event, $args = array())  {
         $list = Amandla::config() -> event_hooks( array("event_name" => $event) );
-        $dir = Amandla::config() -> directories( "__plugins" ); $dir = $dir[0];
+        $dir = Config::directories("_root_") . Config::directories( "_plugins_" );
         foreach($list as $plugin)   {
 	        $override = Amandla::config() -> overrides( array("overridden_plugin" => $plugin -> handler_name) );
             while ($override)	  {
 	            $plugin -> handler_name = $override[0] -> overriding_plugin;
 	            $override = Amandla::config() -> overrides( array("overridden_plugin" => $plugin -> handler_name) );
 	        }
-	        if (!self::checkExistance($dir -> value, $plugin -> handler_name)) continue; self::ensurePlugin($dir -> value, $plugin -> handler_name);
+	        if (!self::checkExistance($dir, $plugin -> handler_name)) continue; self::ensurePlugin($dir, $plugin -> handler_name);
             if (!self::checkMethods($plugin -> handler_name, $plugin -> handler_action)) continue; self::executeAction($plugin -> handler_name, $plugin -> handler_action);
         }
     }
@@ -37,8 +37,6 @@ class eventHandler extends Singleton {
     }
 
 
-
-
     private static function executeAction($plugin, $action)	{
         $action .= "Action";
         return  self::$_plugins[$plugin] -> $action();
@@ -48,7 +46,7 @@ class eventHandler extends Singleton {
 	        self::logEvent("Plugin '{$plugin }' (path : {$path}{$plugin}) is not installed!");
 	        return false;
         }
-        if (!file_exists($path.$plugin."/".$plugin."Module.php")) {
+        if (!file_exists($path.$plugin. "/" .$plugin."Module.php")) {
 	        self::logEvent("Plugin '{$plugin}' (path : {$path}{$plugin}/{$plugin}Module.php) has missing files!");
 	        return false;
         }

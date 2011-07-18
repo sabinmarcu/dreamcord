@@ -1,5 +1,6 @@
 <?php
 class fileHelper extends Singleton{
+
     public static function ensureFile($path)    {
         self::ensureFolder($path);
         if (!file_exists($path)) {     $file = fopen($path, 'w');fclose($file);  chmod($path, 0775);   }
@@ -25,6 +26,9 @@ class fileHelper extends Singleton{
             else if (!is_dir($path.$file)) unlink($path.$file);
         }
         rmdir($path);
+    }
+    public static function pluginDir($dir) {
+        return Config::directories("_root_").Config::directories("_plugins_").Config::directories($dir);
     }
 }
 ?>

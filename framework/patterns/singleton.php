@@ -38,20 +38,5 @@ class Singleton extends Prototype
                 trigger_error('Clone is not allowed.', E_USER_ERROR);
         }
 
-    /**
-     * @param string $instances
-     */
-    public static function setInstances($instances)
-    {
-        self::$_instances = $instances;
-    }
-
-    /**
-     * @return string
-     */
-    public static function getInstances()
-    {
-        return self::$_instances;
-    }
 }
 ?>

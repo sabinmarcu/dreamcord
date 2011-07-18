@@ -7,6 +7,8 @@
  **/
 class Amandla extends Singleton
 {
+    private $_srv;
+
     private static $_instance = NULL;
 	/**
 	 * A shorthand to aquire the Singleton Object.

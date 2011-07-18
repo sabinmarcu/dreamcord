@@ -21,7 +21,7 @@ class config extends dataManagerPrototype{
 	public function init($database = NULL)	{
 	      if ($database === NULL)	$database = APPDIR."config/default";
 	      $this -> _database = $database;
-//        var_dump($database);exit;
+        
 	      R::setup("sqlite:".fileHelper::ensureFile($database.".sqlite"));
                 if (!self::getAll("site_info"))    {
                     self::insertRow("site_info", array("key" => "site_title", "value" => "Amandla Website"));
@@ -35,7 +35,7 @@ class config extends dataManagerPrototype{
     private static function checkIncludePaths()
     {
         $folders = self::getAll("directories");
-        foreach ($folders as $dir) set_include_path($dir->value . PATH_SEPARATOR . get_include_path());
+        foreach ($folders as $dir) set_include_path($dir -> value . PATH_SEPARATOR . get_include_path());
     }
     public function addField() { }
 	public function removeField() { }
@@ -57,21 +57,32 @@ class config extends dataManagerPrototype{
 			foreach($keys as $key)	$query .= $key."=? ";
 			return R::find($table, $query , $values);
 		}
+        return false;
 	}
 	public function getAll($table = NULL) {
 		if (!isset($table))	trigger_error('Table name cannot be NULL');
 		else {
 			return R::find($table);
 		}
+        return false;
 	}
+    public static function getType($table = NULL)  {
+		if (!isset($table))	trigger_error('Table name cannot be NULL');
+        else {
+            $table = R::find("tbltype", "id=? ", array($table));
+            foreach($table as $table);
+            return count($table) ? $table -> type : "none";
+        }
+    }
 	public function describeDatabase() { }
 	protected function connectToDatabase() { }
 	protected function connectToServer() { }
     public function findProp($table = NULL, $which = NULL) {
     if (!$table || !$which)	trigger_error("Table name of Values set cannot be NULL");
-            $ret = self::findRow($table, array("key" => $which));
+            $ret = self::findRow($table, array("key" => $which), "<br><br><br><br>");
+            $ret = self::findRow($table, array("key" => $which), "<br><br><br><br>");
             foreach($ret as $ret);
-            return isset($ret) ? $ret -> value : NULL;
+            return count($ret) ? $ret -> value : NULL;
     }
     public function __call($method, $arguments)   {
         return self::__callStatic($method, $arguments);
@@ -80,6 +91,17 @@ class config extends dataManagerPrototype{
         $config = Amandla::config();
         if (method_exists($config, $method))   return $config -> $method();
         if (empty($arguments))    return $config::getAll($method);
+        if ($config::getType($method) === "property"){
+            if (count($arguments) === 1)    {
+                if (!is_array($arguments[0])) return $config::findProp($method, $arguments[0]);
+                $arr = array();
+                foreach($arguments[0] as $arg)  $arr[] = $config::findProp($method, $arg);
+                return $arr;
+            }
+            $arr = array();
+            foreach($arguments as $arg)  $arr[] = $config::findProp($method, $arg);
+            return $arr;
+        }
         $r = array();
         foreach($arguments as $arg) {
             $ret = $config::findRow($method, is_array($arg) ? $arg : array("key" => $arg));

@@ -9,14 +9,14 @@ class modulePrototype extends Singleton {
     protected static $_plugins_dir;
     public function __construct()    {
         parent::__construct();
-        if (!isset(self::$_plugins_dir)) self::$_plugins_dir = Amandla::config() -> directories("plugins");
+        if (!isset(self::$_plugins_dir)) self::$_plugins_dir = Config::directories("_plugins_");
         $this -> _name = str_replace("Module", "", $this -> _classname);
         $this -> plugin_path  = self::$_plugins_dir . "/" . $this -> _name . "/";
-        foreach ($this -> _includeDir as $dir)  set_include_path(get_include_path() . PATH_SEPARATOR . Amandla::config() -> directories("__plugins") . $this -> _name . "/" . $dir);
+        foreach ($this -> _includeDir as $dir)  set_include_path(get_include_path() . PATH_SEPARATOR . Config::directories("_root_") . Config::directories("_plugins_") . $this -> _name . DIRECTORY_SEPARATOR . $dir);
     }
     public function render($view, $variables = array())    {
         foreach ($variables as $key => $value)    $$key = $value;
-        include $this -> _viewDir . $view . ".php";
+        include Config::directories("_root_") . Config::directories("_plugins_") . $this -> _name . "/" . $this -> _viewDir .  $view . ".view.php";
     }
     public static function getModel($model) {
 
