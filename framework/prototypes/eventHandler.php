@@ -47,7 +47,7 @@ class eventHandler extends Singleton {
 	        return false;
         }
         if (!file_exists($path.$plugin. "/" .$plugin."Module.php")) {
-	        self::logEvent("Plugin '{$plugin}' (path : {$path}{$plugin}/{$plugin}Module.php) has missing files!");
+	        self::logEvent("Plugin '{$plugin}' (path : {$path}{$plugin}/{$plugin}Module.php) has missing parts!");
 	        return false;
         }
         return true;

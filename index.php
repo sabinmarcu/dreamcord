@@ -1,8 +1,8 @@
 <?php
 
 	include "framework/bootstrap.php";
-	Amandla::trigger("mojuba");
-
+    Amandla::app() -> trigger("mojuba");
+echo Config::site_info("site_title");
 ?>
 
 
