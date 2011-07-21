@@ -7,6 +7,9 @@ class modulePrototype extends Singleton {
     protected $_modelList;
     protected $_includeDir = array();
     protected static $_plugins_dir;
+    public static function obj($c = __CLASS__)    {
+        return parent::obj($c);
+    }
     public function __construct()    {
         parent::__construct();
         if (!isset(self::$_plugins_dir)) self::$_plugins_dir = Config::directories("_plugins_");

@@ -5,6 +5,11 @@
 class basicHtmlTemplateModule extends modulePrototype   {
     protected $_viewDir = "views/";
 
+    public static function obj($c = __CLASS__)   {
+        die( __CLASS__ );
+        return parent::obj($c);
+    }
+
     public function __construct()   {
         parent::__construct();
         Config::load(Config::directories("_root_") . Config::directories("_plugins_") . Config::directories($this -> _name) . "configs/config");
@@ -20,6 +25,14 @@ class basicHtmlTemplateModule extends modulePrototype   {
 
 
 
+    }
+    private static  function getStyles()    {
+
+    }
+    private static  function getFonts()    {
+
+    }
+    private static  function getScripts()    {
 
     }
     private function renderBodySectionEvent() {
