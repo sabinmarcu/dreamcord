@@ -22,7 +22,7 @@ class Singleton extends Prototype
 	 * @return mixed a Singleton Object
 	 * @author Marcu Sabin
 	 */
-	public static function obj($c = NULL)	{
+	public static function &obj($c = NULL)	{
 		$c = isset($c) ? $c : __CLASS__;
 		if ( !array_key_exists($c, self::$_instances) )
             self::$_instances[$c] = new $c($c);
@@ -36,7 +36,10 @@ class Singleton extends Prototype
 
 	public function __clone(){
                 trigger_error('Clone is not allowed.', E_USER_ERROR);
-        }
+    }
+    public function devDump()   {
+        var_dumP($this::$_instances);
+    }
 
 }
 ?>

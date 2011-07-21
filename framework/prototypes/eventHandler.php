@@ -12,8 +12,8 @@ class eventHandler extends Singleton {
      * @static
      * @return eventHandler The eventHandler Object
      */
-    public static function obj()    {
-        return parent::obj(__CLASS__);
+    public static function obj($c = __CLASS__)    {
+        return parent::obj($c);
 }
     public static function trigger($event, $args = array())  {
         $list = Amandla::config() -> event_hooks( array("event_name" => $event) );
@@ -38,8 +38,8 @@ class eventHandler extends Singleton {
 
 
     private static function executeAction($plugin, $action)	{
-        $action .= "Action";
-        return  self::$_plugins[$plugin] -> $action();
+        $action .= "Action"; $plugin =& self::$_plugins[$plugin];
+        return  $plugin::obj() -> $action();
     }
     private static function checkExistance($path, $plugin) {
         if (!file_exists($path.$plugin)) {
