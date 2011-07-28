@@ -49,9 +49,8 @@ class Amandla extends Singleton
 		spl_autoload_register('Amandla::libInc');
 		Amandla::init();
 	}
-    public static function init($instance = NULL)    {
-        Amandla::$_instance = $instance;
-        config::db() -> init($instance);
+    public static function init($database = NULL, $type = NULL, $host = "", $username = NULL, $password = NULL)    {
+        config::db() -> init($database, $type, $host, $username, $password);
     }
     public static function config()    {
         return config::db();

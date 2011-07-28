@@ -1,0 +1,717 @@
+<!DOCTYPE html><html><head><title>Amandla Engine History Dump</title></head><body><pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : Amandla'</font> <i>(length=39)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : config'</font> <i>(length=38)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file cooker.'</font> <i>(length=27)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  6 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  7 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  8 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  9 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  10 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  11 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  12 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  13 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  14 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  15 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  16 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  17 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  18 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  19 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  20 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  21 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  22 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  23 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  24 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  25 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  26 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : eventHandler'</font> <i>(length=44)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  27 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'event_name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'mojuba'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  28 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  29 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  30 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  31 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  32 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  33 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  34 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  35 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  36 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  37 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  38 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  39 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  40 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  41 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  42 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'overridden_plugin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'envHandler'</font> <i>(length=10)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  43 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  44 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : envHandlerModule'</font> <i>(length=48)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  45 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  46 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : envHandlerModule'</font> <i>(length=48)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  47 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'event_name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'urlRequestBase'</font> <i>(length=14)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  48 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  49 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  50 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  51 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  52 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  53 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  54 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  55 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  56 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  57 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  58 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  59 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  60 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  61 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  62 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  63 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  64 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'overridden_plugin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'basicHtmlTemplate'</font> <i>(length=17)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  65 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  66 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : basicHtmlTemplateModule'</font> <i>(length=55)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  67 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  68 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  69 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  70 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  71 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  72 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  73 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  74 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  75 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  76 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  77 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'current'</font> <i>(length=7)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  78 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  79 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  80 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  81 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  82 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  83 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : basicHtmlTemplateModule'</font> <i>(length=55)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  84 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  85 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  86 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  87 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  88 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  89 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'current'</font> <i>(length=7)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  90 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  91 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  92 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  93 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  94 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  95 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_themes.'</font> <i>(length=33)</i>
+  96 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  97 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  98 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  99 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  100 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  101 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  102 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  103 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  104 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  105 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  106 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  107 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  108 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  109 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  110 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  111 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  112 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  113 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  114 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  115 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  116 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'site_title'</font> <i>(length=10)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  117 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  118 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  119 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  120 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_site_info.'</font> <i>(length=36)</i>
+  121 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'event_name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'headPlaceholder'</font> <i>(length=15)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  122 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  123 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  124 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  125 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  126 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  127 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  128 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  129 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  130 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  131 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  132 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  133 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  134 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'event_name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'bodyPlaceholder'</font> <i>(length=15)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  135 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  136 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  137 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  138 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  139 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  140 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  141 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  142 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  143 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  144 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  145 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  146 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  147 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  148 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  149 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'overridden_plugin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'helloWorld'</font> <i>(length=10)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  150 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  151 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : helloWorldModule'</font> <i>(length=48)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  152 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  153 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  154 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  155 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  156 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  157 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new object from Prototype'</font> <i>(length=34)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  158 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Creating new Singleton object : helloWorldModule'</font> <i>(length=48)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'success'</font> <i>(length=7)</i>
+  159 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  160 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  161 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  162 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  163 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  164 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  165 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  166 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  167 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  168 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  169 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  170 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  171 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  172 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  173 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  174 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_root_'</font> <i>(length=6)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  175 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  176 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  177 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  178 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  179 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'_plugins_'</font> <i>(length=9)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  180 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  181 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  182 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  183 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_directories.'</font> <i>(length=38)</i>
+  184 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'overridden_plugin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'helloWorld'</font> <i>(length=10)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  185 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b>
+          0 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              'event_name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'urlRequestBase'</font> <i>(length=14)</i>
+          1 <font color='#888a85'>=&gt;</font> 
+            <b>array</b>
+              '_limit_' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>10</font>
+      1 <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  186 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  187 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_tbltype.'</font> <i>(length=34)</i>
+  188 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  189 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  190 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+  191 <font color='#888a85'>=&gt;</font> 
+    <b>array</b>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cannot include file model_event_hooks.'</font> <i>(length=38)</i>
+</pre></body></html>

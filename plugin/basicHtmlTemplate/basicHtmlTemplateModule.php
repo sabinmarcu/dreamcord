@@ -2,7 +2,8 @@
 /**
  * @todo stylesheet getter, javascript getter, font getter, etc.
  */
-class basicHtmlTemplateModule extends modulePrototype   {
+class
+basicHtmlTemplateModule extends modulePrototype   {
     protected $_viewDir = "views/";
     private static $_ct = NULL;
 
@@ -12,13 +13,14 @@ class basicHtmlTemplateModule extends modulePrototype   {
 
     public function __construct()   {
         parent::__construct();
-        Config::load($this -> plugin_path . "configs/config");
+        Config::load($this -> plugin_path . "configs/config.sqlite");
         self::$_ct = Config::themes("current");
+        var_dumP(self::$_ct);
     }
 
     public function renderHtmlPageAction()  {
         $this -> renderHeadSectionEvent();
-        Amandla::trigger("bodyPlaceholder");
+        Amandla::app() -> trigger("bodyPlaceholder");
         $this -> renderBodySectionEvent();
     }
     private function renderHeadSectionEvent() {

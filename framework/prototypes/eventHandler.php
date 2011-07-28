@@ -16,7 +16,7 @@ class eventHandler extends Singleton {
         return parent::obj($c);
 }
     public static function trigger($event, $args = array())  {
-        $list = Amandla::config() -> event_hooks( array("event_name" => $event) );
+        $list = Amandla::config() -> event_hooks( array("event_name" => $event), array("_order_" => array("priority")) );
         $dir = Config::directories("_root_") . Config::directories( "_plugins_" );
         foreach($list as $plugin)   {
 	        $override = Amandla::config() -> overrides( array("overridden_plugin" => $plugin -> handler_name) );
@@ -61,8 +61,9 @@ class eventHandler extends Singleton {
         return true;
     }
     private static function ensurePlugin($path, $plugin)	{
+        if (isset(self::$_plugins[$plugin])) return;
         include $path.$plugin."/".$plugin."Module.php";   $n= $plugin."Module";
-        if (!isset(self::$_plugins[$plugin]))   self::$_plugins[$plugin] = new $n();
+        self::$_plugins[$plugin] = new $n();
     }
 
 

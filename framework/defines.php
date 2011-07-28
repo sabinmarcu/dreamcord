@@ -21,5 +21,5 @@
 	define("FACTDIR", BASEDIR."factories/");
 	define("RUNDIR", BASEDIR."runtime/");
 	define("HLPDIR", BASEDIR."helpers/");
-    define("SRVENV", stripos($_SERVER['SERVER_SOFTWARE'], "win") ? "win" : "unix");
+//    define("SRVENV", stripos($_SERVER['SERVER_SOFTWARE'], "win") ? "win" : "unix");
 ?>

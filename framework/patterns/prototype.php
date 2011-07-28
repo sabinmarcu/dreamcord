@@ -77,7 +77,7 @@ class Prototype{
 	 */
 	public static function printHistory($location = NULL, $mode = 'a')	{
 		if ($location)	{
-			$file = fopen($location, $mode); fwrite($file, "\n\n\n\n".varTrans::getString(self::$_history)); fclose($file);
+			$data = &dataHelper::startRecording(); var_dump(self::$_history); dataHelper::stopReccording(); $file = fopen($location, $mode); fwrite($file, "<!DOCTYPE html><html><head><title>Amandla Engine History Dump</title></head><body>".$data."</body></html>"); fclose($file);
 		}	else var_dump(self::$_history);
 		self::logEvent("Printing of the current session's history.", "success");
 	}
